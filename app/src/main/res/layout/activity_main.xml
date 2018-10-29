@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAYANG SEKARANG!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/poster2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="15"
+        android:scaleType="fitXY"
+        android:scrollbarSize="3dp"
+        app:srcCompat="D:\fata\applikasi\app\src\main\gambar\halowen.jpg"
+        tools:srcCompat="D:\fata\applikasi\app\src\main\gambar\halowen.jpg"
+        />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/Mult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HALLOWEEN"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/halow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laurie Strode comes to her final confrontation with Michael Myers, the masked figure who has haunted her since she narrowly escaped his killing spree on Halloween night four decades ago."
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:id="@+id/btndet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL"/>
+
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="15"
+        android:scaleType="fitXY"
+        android:scrollbarSize="3dp"
+        app:srcCompat="D:\fata\apapp/src/main/gambar/john.jpgplikasi\app\src\main\gambar\halowen.jpg"
+        tools:srcCompat="D:\fata\applapp/src/main/gambar/john.jpgikasi\app\src\main\gambar\halowen.jpg" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/Mult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A.X.L"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/axl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The life of a teenage boy is forever altered by a chance encounter with cutting edge military technology."
+        android:textSize="15dp"
+        android:scrollbarSize="3dp"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:id="@+id/btndet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL"
+        tools:ignore="DuplicateIds" />
+
+
+</LinearLayout>
